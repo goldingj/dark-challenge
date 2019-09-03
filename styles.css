@@ -1,0 +1,273 @@
+/* Nav Bar */
+
+.logo{
+  position:absolute;
+  padding-left:35px;
+}
+
+
+.nav-bar{
+  padding: 3%;
+  font-family: 'Raleway',sans-serif;
+  margin:0;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li{
+  float:right;
+  padding: 0 25px 25px;
+  display: inline;
+
+}
+
+/* Intro Section */
+
+.intro{
+  background-color:hsl(217, 28%, 15%);
+  background-image: url(file:///C:/Users/Jessica/AppData/Local/Temp/Temp1_fylo-landing-page-892264-master%20(1).zip/fylo-landing-page-892264-master/images/bg-curvy-desktop.svg);
+}
+
+.intro-section{
+  text-align: center;
+  padding:2% 30%;
+}
+
+.intro-img{
+  height:400px;
+}
+
+body{
+  background-color:hsl(218, 28%, 13%);
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  line-height: 1.6;
+}
+
+.sub-div{
+  text-align: center;
+  margin-bottom:100px;
+}
+.get-started-btn{
+  color:#fff;
+  background-image:linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-size:14px;
+  padding:5px 52px;
+  border-radius:17px;
+  width:15%;
+  border:none;
+  line-height: 2;
+}
+
+/* Features Section */
+
+.access-anywhere{
+  display:grid;
+  grid-gap:75px;
+  padding:10px 150px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.grid-item1{
+  grid-column: 1/4;
+  padding:17%;
+}
+
+.grid-item2{
+grid-column:4/7;
+padding:17%;
+}
+
+.grid-item3{
+grid-column:1/4;
+padding:17%;
+}
+
+.grid-item4{
+ grid-column:4/7;
+ padding:17%;
+}
+
+/* Information Section */
+
+.info-section{
+ display:flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding:10%;
+}
+
+
+.link-arrow{
+  padding:3% 0 0 0;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+a{
+  color:hsl(176, 68%, 64%);
+  line-height: 1.6;
+  padding-bottom:2%;
+}
+
+/* Testimonial Section */
+
+h4{
+  display:inline;
+}
+
+.credentials{
+  position:relative;
+  top:20px;
+  left:10px;
+}
+
+.testimonial-section{
+  display:flex;
+   padding:0 7% 7% 7%;
+   flex-direction:row;
+   flex-wrap:nowrap;
+   justify-content:space-around;
+
+}
+
+.quotes-img{
+  margin-left:150px;
+  display:inline;
+
+}
+
+.testimonial-1{
+  padding:2% 3% 2% 3%;
+  width:20%;
+  background-color: hsl(219, 30%, 18%);
+}
+
+.profile-img-1{
+  position:relative;
+  top:25px;
+  float:left;
+  border-radius: 100%;
+  height:30px;
+}
+
+.testimonial-2{
+  padding:2% 3% 2% 3%;
+  width:20%;
+  background-color: hsl(219, 30%, 18%);
+}
+
+.profile-img-2{
+  position:relative;
+  top:25px;
+  float:left;
+  border-radius:100%;
+  height:30px;
+}
+
+.testimonial-3{
+  padding:2% 3% 2% 3%;
+  width:20%;
+  background-color: hsl(219, 30%, 18%);
+}
+
+.profile-img-3{
+  position:relative;
+  top:25px;
+  float:left;
+  border-radius: 100%;
+  height:30px;
+}
+
+/* Call to action section */
+
+.cta{
+  background-color: hsl(217, 28%, 15%);
+  position:relative;
+  z-index:1;
+  left:200px;
+  text-align: center;
+  padding:2% 15%;
+  width:35%;
+ font-family: 'Raleway', sans-serif;
+}
+
+.cta-background{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  background: rgb(32,42,60);
+background: linear-gradient(180deg, rgba(24,31,42,1) 49%, rgba(11,21,35,1) 50%);
+padding-top:3%;
+}
+
+.text-box{
+  float:left;
+  width:50%;
+  border:none;
+  border-radius:40px;
+  padding:10px 40px;
+}
+
+.email-btn{
+  color:#fff;
+  background-image:linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+  font-size:14px;
+  padding:5px 52px;
+  border-radius:17px;
+  width:30%;
+  border:none;
+}
+
+/* Footer Section */
+
+.flex-container{
+  display:flex;
+  padding:7%;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  background-color: hsl(216, 53%, 9%);
+  line-height: 3;
+}
+
+.footer-left{
+  line-height:1.6;
+  display:inline-block;
+  width:300px;
+}
+
+.bottom-logo{
+margin-bottom: 40px;
+}
+
+.location-img{
+float:left;
+padding-right:;
+}
+
+.latin{
+padding-left: 30px;
+
+}
+
+.phone-email{
+padding-right:20%;
+}
+
+.icons{
+  padding:3%;
+}
+
+.footer-media{
+  padding:1%;
+}
